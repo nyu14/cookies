@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Exemplo Cookies — Tema</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Exemplo de Cookies: Modo Claro / Escuro</h1>
+    <p>Use o botão para alternar o tema. A preferência é salva em um cookie.</p>
+    <div class="controls">
+      <label for="theme-select">Escolher tema:</label>
+      <select id="theme-select" aria-label="Selecionar tema">
+        <option value="light">Claro</option>
+        <option value="dark">Escuro</option>
+        <option value="roxo">Roxo</option>
+        <option value="rosa">Rosa</option>
+        <option value="azul">Azul</option>
+        <option value="azul-bebe">Azul bebê</option>
+        <option value="laranja">Laranja</option>
+        <option value="verde">Verde</option>
+        <option value="amarelo">Amarelo</option>
+        <option value="vermelho">Vermelho</option>
+        <option value="marrom-claro">Marrom claro</option>
+      </select>
+      <button id="clear-cookie">Resetar preferência</button>
+    </div>
+    <div class="note">Cookie atual: <span id="cookie-value">—</span></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

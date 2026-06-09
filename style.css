@@ -1,0 +1,110 @@
+:root{
+  --bg: #ffffff;
+  --text: #111111;
+  --accent: #0066cc;
+}
+
+[data-theme="dark"]{
+  /* tom médio: escuro suave, não muito profundo */
+  --bg: #2f3742; /* cinza-azulado médio */
+  --text: #e6eef6; /* texto claro suave */
+  --accent: #5b8def; /* azul médio */
+}
+[data-theme="roxo"]{
+  --bg: #f3e8ff; /* lavanda claro */
+  --text: #2b0b3a; /* roxo escuro suave para leitura */
+  --accent: #8b5cf6; /* roxo médio */
+}
+
+[data-theme="rosa"]{
+  --bg: #fff0f6; /* rosa bem claro */
+  --text: #3b0b1b; /* texto rosa-escuro suave */
+  --accent: #ff6bcb; /* acento rosa médio */
+}
+
+[data-theme="azul"]{
+  --bg: #e8f6ff; /* azul claro pastel */
+  --text: #04263b; /* texto azul-escuro */
+  --accent: #1e90ff; /* azul vivo médio */
+}
+
+[data-theme="azul-bebe"]{
+  --bg: #e8f8ff;
+  --text: #072a40;
+  --accent: #66c2ff;
+}
+
+[data-theme="laranja"]{
+  --bg: #2a0b00;
+  --text: #fff4e6;
+  --accent: #ff8c42;
+}
+
+[data-theme="verde"]{
+  --bg: #012b12;
+  --text: #e6fff0;
+  --accent: #39d98a;
+}
+
+[data-theme="amarelo"]{
+  --bg: #2b2400;
+  --text: #fffbe6;
+  --accent: #ffd166;
+}
+
+[data-theme="vermelho"]{
+  --bg: #2b0b0b;
+  --text: #ffecec;
+  --accent: #ff6b6b;
+}
+
+[data-theme="marrom-claro"]{
+  --bg: #3b2f2f;
+  --text: #fff6f0;
+  --accent: #c68c53;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background:var(--bg);
+  color:var(--text);
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+[data-theme="azul-bebe"]{
+  --bg: #f0fbff; /* muito suave */
+  --text: #043044;
+  --accent: #66c2ff;
+}
+[data-theme="laranja"]{
+  --bg: #fff4e9; /* laranja pastel */
+  --text: #43210a; /* marrom-escuro suave */
+  --accent: #ff8c42; /* laranja médio */
+}
+
+[data-theme="verde"]{
+  --bg: #e8fff0; /* verde suave/pastel */
+  --text: #052b14; /* verde-escuro suave */
+  --accent: #39d98a; /* verde médio */
+}
+
+[data-theme="amarelo"]{
+  --bg: #fffbe6; /* amarelo claro */
+  --text: #4a3b00; /* marrom suave para leitura */
+  --accent: #ffd166; /* amarelo médio */
+}
+
+[data-theme="vermelho"]{
+  --bg: #fff0f0; /* vermelho muito suave/pastel */
+  --text: #3b0b0b;
+  --accent: #ff6b6b; /* vermelho médio */
+}
+
+[data-theme="marrom"]{
+  --bg: #f7efe6; /* marrom claro e quente */
+  --text: #3b2f2b; /* marrom-escuro suave */
+  --accent: #c68c53; /* acento marrom médio */
+}
